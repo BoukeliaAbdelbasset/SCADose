@@ -91,8 +91,6 @@ SCADose/
 ├── scripts/                       # Shell automation wrappers
 │   ├── run_pipeline.sh            # Runs full analytical workflow (Stages 01-05)
 │   ├── run_tests.sh               # Executes automated pytest verification suite (25/25)
-│   ├── build_manuscript.sh        # Compiles LaTeX (PDF), Word (DOCX), and Markdown (MD)
-│   ├── format_manuscript_md.py    # Formats post-pandoc Markdown headers & author metadata
 │   └── setup_env.sh               # Dependency installer
 ├── src/                           # Audited Python analytical pipeline (Python 3.11+)
 │   ├── 01_clinical_data_audit.py  # Data ingestion, probe calibration, and sex concordance
@@ -122,17 +120,6 @@ SCADose/
 │   ├── ml_cross_syndrome_transfer.tsv # Cross-syndrome bidirectional transfer metrics
 │   └── simulation_power_curves.tsv# Empirical power and false-discovery simulations
 ├── figures/                       # Publication vector PDFs and 300 DPI raster PNGs (Figs 1-12, Fig S1)
-└── manuscript/                    # Complete manuscript submission package
-    ├── latex/                     # LaTeX sources and compiled PDFs
-    │   ├── main.tex               # Master LaTeX manuscript (elsarticle format, IMRaD sequence)
-    │   ├── main.pdf               # Publication PDF (29 pages, high-resolution figures)
-    │   ├── cover_letter.tex       # Elsevier Cover Letter LaTeX source
-    │   ├── cover_letter.pdf       # Compiled Submission Cover Letter (2 pages)
-    │   ├── macros.tex             # Auto-generated statistics macros
-    │   └── references.bib         # Audited references with official DOIs
-    ├── MANUSCRIPT.md              # Humanized Markdown manuscript with KaTeX math
-    ├── COVER_LETTER.md            # Submission Cover Letter in Markdown
-    └── manuscript.docx            # Formatted Microsoft Word document (1.6 MB)
 ```
 
 ---
