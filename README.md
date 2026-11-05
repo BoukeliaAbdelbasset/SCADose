@@ -11,7 +11,7 @@
 Accompanying manuscript:  
 **"Sex-Chromosome Dosage Effects on the Human Blood Transcriptome: Within-Study Modeling, Independent RNA-Seq Replication, and Trans-Regulatory Stability in Turner and Klinefelter Syndromes"**
 
-**Authors:** Safa Nair$^{1,2,\dagger}$, Anouar Boucheham$^3$, Abdelbasset Boukelia$^{2,*,\dagger}$ (`a.boukelia@crbt.dz`), Ferial Sellam$^2$
+**Authors:** Safa Nair$^{1,2,\dagger}$, Abdelbasset Boukelia$^{2,*,\dagger}$ (`a.boukelia@crbt.dz`), Anouar Boucheham$^3$, Ferial Sellam$^2$
 
 $^1$ Department of Biology and Plant Ecology, Faculty of Natural and Life Sciences, Université Frères Mentouri - Constantine 1, Constantine, Algeria  
 $^2$ Centre de Recherche en Biotechnologie (C.R.Bt), Constantine, Algeria  
