@@ -1,0 +1,5 @@
+direction	feature_set	n_train	n_test	roc_auc	balanced_accuracy
+TS_to_KS	X_Escape_PAR	36	75	0.8927272727272728	0.5
+TS_to_KS	All_Genes	36	75	0.5318181818181819	0.5
+KS_to_TS	X_Escape_PAR	75	36	0.9	0.5
+KS_to_TS	All_Genes	75	36	0.8423076923076923	0.8038461538461539

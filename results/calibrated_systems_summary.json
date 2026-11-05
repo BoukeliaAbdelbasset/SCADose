@@ -1,0 +1,42 @@
+{
+  "deconvolution": {
+    "til10_cell_types": 10,
+    "monocyte_concordance_spearman": 0.7764680216417188,
+    "monocyte_concordance_ccc": 0.4650731099664286
+  },
+  "mediation": {
+    "clec4e_gse42331_total_effect": -0.13304038095238116,
+    "clec4e_gse42331_direct_effect": -0.15047009741813666,
+    "clec4e_gse42331_direct_pvalue": 0.16199783010523486,
+    "e2f2_gse42331_total_effect": 0.10223733333333374,
+    "e2f2_gse42331_direct_effect": 0.4660362041966357,
+    "kdm6a_gse42331_total_effect": 0.598417714285714,
+    "kdm6a_gse42331_direct_effect": 0.5614318932443416
+  },
+  "tf_regulon": {
+    "total_tfs_tested": 770,
+    "e2f2_activity_gse42331_coef": 0.013695720047678703,
+    "e2f2_activity_gse42331_pvalue": 0.7827769512185235,
+    "e2f2_activity_gse46687_coef": -0.13710250369547017,
+    "e2f2_activity_gse46687_pvalue": 0.15042517930950053
+  },
+  "wgcna": {
+    "soft_threshold_power": 18,
+    "n_modules_identified": 2,
+    "preserved_modules_count": 1
+  },
+  "machine_learning": {
+    "loso_auc_x_par_mean": 0.8697777777777779,
+    "loso_auc_all_genes_mean": 0.7687692307692308,
+    "transfer_ts_to_ks_auc": 0.8927272727272728,
+    "transfer_ks_to_ts_auc": 0.9,
+    "permutation_null_auc_mean": 0.5237157190635452
+  },
+  "simulation": {
+    "legacy_combat_false_positive_pct": 0.0,
+    "naive_ols_false_positive_pct": 92.5,
+    "joint_model_false_positive_pct": 0.0,
+    "meta_analysis_false_positive_pct": 0.0,
+    "minimal_detectable_log2fc_80_power": 0.4702702702702703
+  }
+}

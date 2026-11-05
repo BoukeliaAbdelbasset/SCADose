@@ -1,0 +1,5 @@
+strategy	false_positives_p05	false_positive_rate_p05	false_positives_fdr05	empirical_fdr_pct
+Naive Unadjusted Pooled OLS	3710	0.9275	3700	92.5
+Legacy ComBat-then-Regress	118	0.0295	0	0.0
+Joint Study-Stratified Model	209	0.05225	0	0.0
+Within-Study Meta-Analysis	275	0.06875	0	0.0

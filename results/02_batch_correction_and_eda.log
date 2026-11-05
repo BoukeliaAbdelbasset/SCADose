@@ -1,0 +1,13 @@
+2026-11-04 07:20:23,732 [INFO] [BatchCorrection]: Starting TheLastRescue - Layer 02 Empirical Bayes Batch Correction...
+2026-11-04 07:20:23,732 [INFO] [BatchCorrection]: Loading sanitized real expression matrix and clinical manifests...
+2026-11-04 07:20:24,027 [INFO] [BatchCorrection]: Loaded 111 real patient samples across 16807 HGNC genes.
+2026-11-04 07:20:24,027 [INFO] [BatchCorrection]: Executing Empirical Bayes / Linear Model batch effect correction...
+2026-11-04 07:20:24,028 [INFO] [BatchCorrection]: Identified 3 technical batch covariates: ['plat_Illumina_HumanHT12_v4', 'tiss_Peripheral Blood', 'tiss_Whole Blood']
+2026-11-04 07:20:24,066 [INFO] [BatchCorrection]: Batch correction completed. Mean gene variance shifted from 41788388.5942 to 36294948.1213 (13.15% change).
+2026-11-04 07:20:24,067 [INFO] [BatchCorrection]: Evaluating Pre- and Post-Correction PCA coordinates...
+2026-11-04 07:20:24,208 [INFO] [BatchCorrection]: Pre-Correction  PC1 variance: 84.92%, PC1-Dosage corr: -0.085
+2026-11-04 07:20:24,208 [INFO] [BatchCorrection]: Post-Correction PC1 variance: 98.70%, PC1-Dosage corr: -0.134
+2026-11-04 07:20:24,211 [INFO] [BatchCorrection]: Exporting batch-corrected matrix to: /media/abdelbasset/New Volume/safa/safa_v9/TheLastRescue/data/processed/batch_corrected_expression_matrix.csv
+2026-11-04 07:20:25,514 [INFO] [BatchCorrection]: Exporting harmonized clinical manifest to: /media/abdelbasset/New Volume/safa/safa_v9/TheLastRescue/data/processed/harmonized_metadata.csv
+2026-11-04 07:20:25,516 [INFO] [BatchCorrection]: Metrics written to: /media/abdelbasset/New Volume/safa/safa_v9/TheLastRescue/results/batch_correction_metrics.json
+2026-11-04 07:20:25,516 [INFO] [BatchCorrection]: Layer 02 completed successfully.

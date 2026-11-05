@@ -1,0 +1,63 @@
+{
+  "n_total_samples": 165,
+  "cohorts": {
+    "GSE42331": {
+      "n_samples": 65,
+      "platform": "Affymetrix_HuGene-1_0-st",
+      "tissue": "Whole_Blood"
+    },
+    "GSE46687": {
+      "n_samples": 36,
+      "platform": "Affymetrix_HG-U133_Plus_2",
+      "tissue": "PBMC"
+    },
+    "GSE47584": {
+      "n_samples": 10,
+      "platform": "Agilent_SurePrint_G3_8x60K",
+      "tissue": "Whole_Blood"
+    },
+    "GSE126712": {
+      "n_samples": 54,
+      "platform": "Illumina_HiSeq_2500_RNASeq",
+      "tissue": "Primary_Lymphocytes"
+    }
+  },
+  "karyotype_counts": {
+    "47,XXY": 54,
+    "46,XX": 39,
+    "45,X": 39,
+    "46,XY": 33
+  },
+  "n_common_microarray_genes": 16807,
+  "n_common_all_genes": 16465,
+  "within_study_pca_variance": {
+    "GSE42331": [
+      0.2507686559914676,
+      0.0831598695932975,
+      0.07013442016996983
+    ],
+    "GSE46687": [
+      0.09724945145382553,
+      0.07461341794594704,
+      0.053245931617685614
+    ],
+    "GSE47584": [
+      0.28816314636850393,
+      0.12037810576615646,
+      0.11648600761283422
+    ],
+    "GSE126712": [
+      0.20383599234130065,
+      0.07428423462488473,
+      0.06312187382349319
+    ]
+  },
+  "pooled_microarray_pca_variance": [
+    0.515644844485925,
+    0.29438749360415606,
+    0.01819008254104513,
+    0.012044272350678785,
+    0.00882833593914901
+  ],
+  "sex_concordance_rate": 1.0
+}

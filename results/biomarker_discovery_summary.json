@@ -1,0 +1,82 @@
+{
+    "timestamp": "2026-11-03T15:53:54.669110",
+    "total_genes": 500,
+    "concordant_dosage_genes": 8,
+    "classification_breakdown": {
+        "Dosage_Insensitive": 492,
+        "Concordant_Positive_Dosage": 7,
+        "Concordant_Negative_Dosage": 1
+    },
+    "priority_targets": [
+        {
+            "gene": "XIST",
+            "dosage_beta_unadj": 6.678494718782222,
+            "dosage_r2_unadj": 0.9535394067434452,
+            "dosage_padj_unadj": 0.0,
+            "dosage_classification": "Concordant_Positive_Dosage"
+        },
+        {
+            "gene": "KDM6A",
+            "dosage_beta_unadj": 1.4122762226788552,
+            "dosage_r2_unadj": 0.7934786277076153,
+            "dosage_padj_unadj": 0.0,
+            "dosage_classification": "Concordant_Positive_Dosage"
+        },
+        {
+            "gene": "CD99",
+            "dosage_beta_unadj": 1.1790999486052522,
+            "dosage_r2_unadj": 0.7314211221484981,
+            "dosage_padj_unadj": 6.86107631725933e-243,
+            "dosage_classification": "Concordant_Positive_Dosage"
+        },
+        {
+            "gene": "E2F2",
+            "dosage_beta_unadj": 1.1234835326313168,
+            "dosage_r2_unadj": 0.6783372313444764,
+            "dosage_padj_unadj": 1.4732657929687416e-195,
+            "dosage_classification": "Concordant_Positive_Dosage"
+        },
+        {
+            "gene": "CLEC4E",
+            "dosage_beta_unadj": -1.220744515137334,
+            "dosage_r2_unadj": 0.6782383409168512,
+            "dosage_padj_unadj": 5.174006486253416e-187,
+            "dosage_classification": "Concordant_Negative_Dosage"
+        },
+        {
+            "gene": "RPS4X",
+            "dosage_beta_unadj": 0.9733790488337777,
+            "dosage_r2_unadj": 0.6625179859658348,
+            "dosage_padj_unadj": 2.0701275219511284e-194,
+            "dosage_classification": "Concordant_Positive_Dosage"
+        },
+        {
+            "gene": "ZFX",
+            "dosage_beta_unadj": 0.8891158786960737,
+            "dosage_r2_unadj": 0.6498757968223025,
+            "dosage_padj_unadj": 1.3368881576344794e-176,
+            "dosage_classification": "Concordant_Positive_Dosage"
+        },
+        {
+            "gene": "ANXA1",
+            "dosage_beta_unadj": 0.7803964305961247,
+            "dosage_r2_unadj": 0.5086245646961159,
+            "dosage_padj_unadj": 8.282767348586381e-95,
+            "dosage_classification": "Concordant_Positive_Dosage"
+        },
+        {
+            "gene": "ACTB",
+            "dosage_beta_unadj": 0.007142533017431224,
+            "dosage_r2_unadj": 0.00022284339924616425,
+            "dosage_padj_unadj": 0.9917826077432049,
+            "dosage_classification": "Dosage_Insensitive"
+        },
+        {
+            "gene": "GAPDH",
+            "dosage_beta_unadj": -0.0052054746809060614,
+            "dosage_r2_unadj": 0.00011296256121562376,
+            "dosage_padj_unadj": 0.9917826077432049,
+            "dosage_classification": "Dosage_Insensitive"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "timestamp": "2026-11-04T07:20:25.516048",
+    "variance_metrics": {
+        "n_samples": 111,
+        "n_genes": 16807,
+        "batch_factors": [
+            "plat_Illumina_HumanHT12_v4",
+            "tiss_Peripheral Blood",
+            "tiss_Whole Blood"
+        ],
+        "mean_raw_variance": 41788388.59419956,
+        "mean_corrected_variance": 36294948.121316746,
+        "variance_reduction_percent": 13.145853806971953
+    },
+    "pca_metrics": {
+        "pre_var_explained": [
+            0.8491762576422729,
+            0.10506093463108537,
+            0.03878218425331779,
+            0.0017221231150205004,
+            0.00106152261316251
+        ],
+        "post_var_explained": [
+            0.9870009593358893,
+            0.0037249093012766275,
+            0.0026291523917423244,
+            0.0014690343672836936,
+            0.000993782931358984
+        ],
+        "pc1_dosage_correlation_pre": -0.08450061354540267,
+        "pc1_dosage_correlation_post": -0.13371539967887378
+    },
+    "status": "BATCH_CORRECTION_SUCCESSFUL"
+}

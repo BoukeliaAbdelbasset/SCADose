@@ -1,0 +1,28 @@
+{
+    "timestamp": "2026-11-04T07:20:23.305421",
+    "total_audited": 111,
+    "total_quarantined": 0,
+    "total_clean_samples": 111,
+    "total_genes": 16807,
+    "karyotypes": {
+        "47,XXY": 40,
+        "46,XY": 35,
+        "45,X": 26,
+        "46,XX": 10
+    },
+    "datasets": {
+        "GSE42331": 65,
+        "GSE46687": 36,
+        "GSE47584": 10
+    },
+    "platforms": {
+        "Illumina_HumanHT12_v4": 65,
+        "Affymetrix_HG-U133_Plus_2": 46
+    },
+    "tissues": {
+        "Whole Blood": 65,
+        "PBMC": 36,
+        "Peripheral Blood": 10
+    },
+    "leakage_status": "ZERO_LEAKAGE_VERIFIED"
+}

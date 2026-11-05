@@ -1,0 +1,32 @@
+{
+    "timestamp": "2026-11-03T15:53:52.979915",
+    "total_samples": 397,
+    "total_genes": 500,
+    "technical_covariates_removed": [
+        "plat_Affymetrix_HG-U133",
+        "plat_Illumina_HumanHT12",
+        "plat_RNA-Seq_HiSeq",
+        "plat_RNA-Seq_NovaSeq",
+        "tiss_Blood",
+        "tiss_Fibroblast_PBMC",
+        "tiss_PBMC"
+    ],
+    "pca_variance_ratio_raw": [
+        0.4456200481043764,
+        0.02557308489369052,
+        0.004861625263839597,
+        0.004679231242017353,
+        0.004592531559901577
+    ],
+    "pca_variance_ratio_corrected": [
+        0.04724495658929161,
+        0.008838664974145281,
+        0.008425299591775478,
+        0.00832246408518675,
+        0.008201899808937397
+    ],
+    "pc1_dosage_correlation_raw": -0.07353589161231709,
+    "pc1_dosage_correlation_corrected": 0.981693912515577,
+    "pc1_platform_correlation_raw": -0.8856509043877837,
+    "pc1_platform_correlation_corrected": 0.11469389622449296
+}

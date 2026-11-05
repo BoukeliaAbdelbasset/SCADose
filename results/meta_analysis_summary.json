@@ -1,0 +1,141 @@
+{
+  "discovery_meta_analysis": {
+    "n_genes_tested": 16807,
+    "n_fdr_significant": 2,
+    "n_true_dosage_concordant": 1,
+    "concordant_genes": [
+      "KDM5C"
+    ],
+    "sign_concordance_rate": 0.5498304277979413,
+    "binomial_sign_test_p": 3.332180917859788e-38
+  },
+  "joint_study_stratified_model": {
+    "n_samples": 111,
+    "n_fdr_significant": 326
+  },
+  "replication_gse126712": {
+    "n_shared_genes": 11804,
+    "r_all_genes": 0.1683420573465638,
+    "rho_all_genes": 0.1017640834869417,
+    "r_meta_significant_genes": 0.0,
+    "sign_agreement_meta_significant": 0.0,
+    "storey_pi1_replication_rate": 1.0
+  },
+  "gene_class_model_counts": {
+    "Flat": 27,
+    "X_Dosage": 14,
+    "PAR_Sum": 10
+  },
+  "key_genes_summary": {
+    "SLC25A6": {
+      "chromosome": "PAR1",
+      "beta_meta": 0.5731128688477551,
+      "se_meta": 0.31752662512089935,
+      "pvalue_meta": 0.21284665940842795,
+      "padj_meta": 0.999677567477771,
+      "is_true_dosage_concordant": false,
+      "beta_rna_seq": 0.7385591726362045,
+      "padj_rna_seq": 3.5695890687748037e-12,
+      "best_model_bic": "PAR_Sum"
+    },
+    "KDM6A": {
+      "chromosome": "chrX",
+      "beta_meta": 0.7635018882057644,
+      "se_meta": 0.2820201735276242,
+      "pvalue_meta": 0.1136475711222591,
+      "padj_meta": 0.999677567477771,
+      "is_true_dosage_concordant": false,
+      "beta_rna_seq": 0.7816906282391377,
+      "padj_rna_seq": 2.5879520748617324e-11,
+      "best_model_bic": "X_Dosage"
+    },
+    "CD99": {
+      "chromosome": "PAR1",
+      "beta_meta": 0.39327657886625883,
+      "se_meta": 0.21241417559629008,
+      "pvalue_meta": 0.2053089117768896,
+      "padj_meta": 0.999677567477771,
+      "is_true_dosage_concordant": false,
+      "beta_rna_seq": 0.3714679459845671,
+      "padj_rna_seq": 0.0112236608187773,
+      "best_model_bic": "PAR_Sum"
+    },
+    "ASMTL": {
+      "chromosome": "PAR1",
+      "beta_meta": 0.2713490932474742,
+      "se_meta": 0.13802470872557293,
+      "pvalue_meta": 0.18821757440317155,
+      "padj_meta": 0.999677567477771,
+      "is_true_dosage_concordant": false,
+      "beta_rna_seq": 0.4624822295915726,
+      "padj_rna_seq": 5.2116000404112117e-11,
+      "best_model_bic": "PAR_Sum"
+    },
+    "P2RY8": {
+      "chromosome": "chrX",
+      "beta_meta": 0.43905568284950897,
+      "se_meta": 0.1860789635791418,
+      "pvalue_meta": 0.1422675523027217,
+      "padj_meta": 0.999677567477771,
+      "is_true_dosage_concordant": false,
+      "beta_rna_seq": 0.7596470133641969,
+      "padj_rna_seq": 1.070876720632441e-11,
+      "best_model_bic": "PAR_Sum"
+    },
+    "EIF1AX": {
+      "chromosome": "chrX",
+      "beta_meta": 0.6406868501695256,
+      "se_meta": 0.18120396392456625,
+      "pvalue_meta": 0.07151649466774668,
+      "padj_meta": 0.8933486084286107,
+      "is_true_dosage_concordant": false,
+      "beta_rna_seq": 0.5554189183179047,
+      "padj_rna_seq": 2.21648765604114e-08,
+      "best_model_bic": "X_Dosage"
+    },
+    "ZFX": {
+      "chromosome": "chrX",
+      "beta_meta": 0.5421818216934257,
+      "se_meta": 0.246024579507684,
+      "pvalue_meta": 0.15838814540812463,
+      "padj_meta": 0.999677567477771,
+      "is_true_dosage_concordant": false,
+      "beta_rna_seq": 0.5329782240539755,
+      "padj_rna_seq": 1.7772627014522866e-08,
+      "best_model_bic": "X_Dosage"
+    },
+    "CLEC4E": {
+      "chromosome": "Autosome",
+      "beta_meta": 0.13658362025339726,
+      "se_meta": 0.40561821169537937,
+      "pvalue_meta": 0.7683716664554787,
+      "padj_meta": 0.999677567477771,
+      "is_true_dosage_concordant": false,
+      "beta_rna_seq": -0.0627480275455543,
+      "padj_rna_seq": 0.8738495639655869,
+      "best_model_bic": "Unknown"
+    },
+    "E2F2": {
+      "chromosome": "chr1",
+      "beta_meta": 0.2401086546545268,
+      "se_meta": 0.2571121844325479,
+      "pvalue_meta": 0.44895791779620353,
+      "padj_meta": 0.999677567477771,
+      "is_true_dosage_concordant": false,
+      "beta_rna_seq": -0.1338580969052251,
+      "padj_rna_seq": 0.5593267764707093,
+      "best_model_bic": "Unknown"
+    },
+    "ANXA1": {
+      "chromosome": "Autosome",
+      "beta_meta": 0.05019892141275226,
+      "se_meta": 0.2976784412150618,
+      "pvalue_meta": 0.8815960558344291,
+      "padj_meta": 0.999677567477771,
+      "is_true_dosage_concordant": false,
+      "beta_rna_seq": -0.2144105322234376,
+      "padj_rna_seq": 0.2718297768264123,
+      "best_model_bic": "Unknown"
+    }
+  }
+}

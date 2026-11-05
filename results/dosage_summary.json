@@ -1,0 +1,139 @@
+{
+    "timestamp": "2026-11-04T07:20:28.351739",
+    "total_genes_analyzed": 16807,
+    "ts_significant_genes": 1576,
+    "ks_significant_genes": 0,
+    "continuous_dosage_significant_genes": 4680,
+    "classification_breakdown": {
+        "Dosage_Insensitive": 11414,
+        "Pan_Dosage_Continuous": 2512,
+        "TS_Isolated_Dominant": 1960,
+        "KS_Isolated_Dominant": 792,
+        "Discordant_Aneuploidy_Specific": 60,
+        "Concordant_Disproportionate": 58,
+        "Concordant_Positive_Dosage": 8,
+        "Concordant_Negative_Dosage": 3
+    },
+    "top_dosage_biomarkers": [
+        {
+            "gene": "SLC25A6",
+            "dosage_beta_unadj": 4410.194598810882,
+            "dosage_padj_unadj": 3.731903674975001e-12,
+            "dosage_r2_unadj": 0.46203487557754674
+        },
+        {
+            "gene": "KDM6A",
+            "dosage_beta_unadj": 82.45673230057767,
+            "dosage_padj_unadj": 1.3248258046161254e-10,
+            "dosage_r2_unadj": 0.4193713461606918
+        },
+        {
+            "gene": "CSF2RA",
+            "dosage_beta_unadj": 130.80617157720846,
+            "dosage_padj_unadj": 2.6372119303156677e-10,
+            "dosage_r2_unadj": 0.4077387076577179
+        },
+        {
+            "gene": "EIF1AX",
+            "dosage_beta_unadj": 303.57308804458944,
+            "dosage_padj_unadj": 8.751314117816378e-10,
+            "dosage_r2_unadj": 0.3915969306279151
+        },
+        {
+            "gene": "DOCK7",
+            "dosage_beta_unadj": 32.54062355739039,
+            "dosage_padj_unadj": 9.411861068286952e-10,
+            "dosage_r2_unadj": 0.3883191861456824
+        },
+        {
+            "gene": "ZG16B",
+            "dosage_beta_unadj": 55.69989252518566,
+            "dosage_padj_unadj": 1.1531582355672754e-09,
+            "dosage_r2_unadj": 0.3840408095837592
+        },
+        {
+            "gene": "HDHD1",
+            "dosage_beta_unadj": 226.08116689347514,
+            "dosage_padj_unadj": 1.2704466367807754e-09,
+            "dosage_r2_unadj": 0.3812373821867726
+        },
+        {
+            "gene": "PLXNC1",
+            "dosage_beta_unadj": 300.8532166473978,
+            "dosage_padj_unadj": 2.852003719608673e-09,
+            "dosage_r2_unadj": 0.3698476310541685
+        },
+        {
+            "gene": "USP10",
+            "dosage_beta_unadj": 289.0752671610221,
+            "dosage_padj_unadj": 2.852003719608673e-09,
+            "dosage_r2_unadj": 0.369262127238423
+        },
+        {
+            "gene": "AHNAK",
+            "dosage_beta_unadj": 114.68094403633319,
+            "dosage_padj_unadj": 3.170625362258761e-09,
+            "dosage_r2_unadj": 0.3668483441523246
+        },
+        {
+            "gene": "ZFX",
+            "dosage_beta_unadj": 34.55917179521038,
+            "dosage_padj_unadj": 8.792365058241103e-09,
+            "dosage_r2_unadj": 0.3539603237297647
+        },
+        {
+            "gene": "AMDHD2",
+            "dosage_beta_unadj": -56.804308680429955,
+            "dosage_padj_unadj": 9.184789083140396e-09,
+            "dosage_r2_unadj": 0.3517156568175456
+        },
+        {
+            "gene": "CD99",
+            "dosage_beta_unadj": 829.2171076399607,
+            "dosage_padj_unadj": 9.184789083140396e-09,
+            "dosage_r2_unadj": 0.35149709036920995
+        },
+        {
+            "gene": "PSMA1",
+            "dosage_beta_unadj": 1035.6196740148566,
+            "dosage_padj_unadj": 1.4606670983852155e-08,
+            "dosage_r2_unadj": 0.3451673167586006
+        },
+        {
+            "gene": "LOC100289090",
+            "dosage_beta_unadj": 57.57729659454976,
+            "dosage_padj_unadj": 2.401131703836749e-08,
+            "dosage_r2_unadj": 0.3384442428910548
+        },
+        {
+            "gene": "KIAA1033",
+            "dosage_beta_unadj": 504.5248427910774,
+            "dosage_padj_unadj": 3.124466378678914e-08,
+            "dosage_r2_unadj": 0.33452010917041397
+        },
+        {
+            "gene": "CFLAR",
+            "dosage_beta_unadj": 341.6132377274953,
+            "dosage_padj_unadj": 4.868745198363358e-08,
+            "dosage_r2_unadj": 0.32829811160691313
+        },
+        {
+            "gene": "DEGS1",
+            "dosage_beta_unadj": 357.9471397753894,
+            "dosage_padj_unadj": 4.868745198363358e-08,
+            "dosage_r2_unadj": 0.3277499710509374
+        },
+        {
+            "gene": "TUBGCP2",
+            "dosage_beta_unadj": 71.31100162510266,
+            "dosage_padj_unadj": 5.261573672310504e-08,
+            "dosage_r2_unadj": 0.3259585364185128
+        },
+        {
+            "gene": "COPA",
+            "dosage_beta_unadj": 134.8027927332778,
+            "dosage_padj_unadj": 5.261573672310504e-08,
+            "dosage_r2_unadj": 0.3255293625903972
+        }
+    ]
+}

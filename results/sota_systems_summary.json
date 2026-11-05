@@ -1,0 +1,183 @@
+{
+    "timestamp": "2026-11-04T07:20:29.418245",
+    "immune_deconvolution": {
+        "cell_shift_metrics": {
+            "Monocytes_Mac": {
+                "mean_fraction": 0.11804143179056771,
+                "dosage_slope": 0.020529740872921066,
+                "dosage_r2": 0.2036705003911521,
+                "dosage_pval": 6.655270526370899e-07,
+                "pearson_r": 0.4512986820179646
+            },
+            "CD4_T_cells": {
+                "mean_fraction": 0.25562584891365525,
+                "dosage_slope": 0.004080869548912677,
+                "dosage_r2": 0.003256738960148997,
+                "dosage_pval": 0.5518928920651611,
+                "pearson_r": 0.05706784523835841
+            },
+            "CD8_T_cells": {
+                "mean_fraction": 0.06325202904732635,
+                "dosage_slope": 0.003595218320309639,
+                "dosage_r2": 0.009858220214137181,
+                "dosage_pval": 0.29983237480233343,
+                "pearson_r": 0.0992885704103807
+            },
+            "B_cells": {
+                "mean_fraction": 0.039190264236208784,
+                "dosage_slope": 0.003977784263162672,
+                "dosage_r2": 0.010264734645484275,
+                "dosage_pval": 0.2900271140603081,
+                "pearson_r": 0.10131502675064565
+            },
+            "NK_cells": {
+                "mean_fraction": 0.13058534758297394,
+                "dosage_slope": -0.03013560047047779,
+                "dosage_r2": 0.13773988052597474,
+                "dosage_pval": 6.070271315466249e-05,
+                "pearson_r": -0.3711332382392806
+            },
+            "Neutrophils": {
+                "mean_fraction": 0.393305078429268,
+                "dosage_slope": -0.0020480125348281628,
+                "dosage_r2": 0.0006152579715503759,
+                "dosage_pval": 0.7960889603900961,
+                "pearson_r": -0.02480439419842238
+            }
+        },
+        "clec4e_dissection": {
+            "unadjusted_dosage_beta": 237.98835453674675,
+            "unadjusted_dosage_pval": 1.0847442325128546e-06,
+            "adjusted_dosage_beta": 82.82329199538705,
+            "adjusted_dosage_pval": 0.04043170507642948,
+            "monocyte_mac_beta": 7558.062398440869,
+            "monocyte_mac_pval": 6.547749316342456e-14,
+            "r2_unadjusted": 0.19673596988008046,
+            "r2_adjusted": 0.5237187737209934,
+            "conclusion": "Dual-component: CLEC4E expression is strongly correlated with myeloid cellularity while maintaining an independent continuous X-dosage slope component."
+        }
+    },
+    "e2f2_regulon": {
+        "n_targets": 23,
+        "regulon_activity_dosage_r": -0.1536013886822835,
+        "regulon_activity_dosage_pval": 0.10749856075897056,
+        "regulon_activity_E2F2_r": 0.17899682479995707,
+        "regulon_activity_E2F2_pval": 0.06014737429941817,
+        "top_correlated_targets": [
+            {
+                "target_gene": "TK1",
+                "correlation_with_dosage": 0.1625678881024754,
+                "pval_dosage": 0.08824472313783749,
+                "dosage_slope": 36.15707613542505,
+                "correlation_with_E2F2": 0.8740331537074204,
+                "pval_E2F2": 5.88611992717859e-36
+            },
+            {
+                "target_gene": "TYMS",
+                "correlation_with_dosage": -0.13374225459255099,
+                "pval_dosage": 0.16169100328317446,
+                "dosage_slope": -10.120722170107342,
+                "correlation_with_E2F2": 0.40879678986438933,
+                "pval_E2F2": 8.412031570725499e-06
+            },
+            {
+                "target_gene": "UBE2C",
+                "correlation_with_dosage": -0.15316739999986273,
+                "pval_dosage": 0.10850773098760637,
+                "dosage_slope": -14.948331075144587,
+                "correlation_with_E2F2": 0.3404137571233763,
+                "pval_E2F2": 0.00025648832921156244
+            },
+            {
+                "target_gene": "RAD51",
+                "correlation_with_dosage": 0.11542855725514752,
+                "pval_dosage": 0.22766871762859747,
+                "dosage_slope": 2.4039293938893462,
+                "correlation_with_E2F2": 0.2205731418999121,
+                "pval_E2F2": 0.020002283273551816
+            },
+            {
+                "target_gene": "CCNE1",
+                "correlation_with_dosage": -0.20781564896638943,
+                "pval_dosage": 0.028622865985215008,
+                "dosage_slope": -8.040096627580573,
+                "correlation_with_E2F2": 0.22024864004445793,
+                "pval_E2F2": 0.020190114885985353
+            }
+        ]
+    },
+    "wgcna": {
+        "n_genes_modeled": 500,
+        "n_modules": 6,
+        "top_dosage_module": "Blue",
+        "top_dosage_module_r": 0.6323540611492114,
+        "top_dosage_module_pval": 9.769824011589907e-14,
+        "module_overview": [
+            {
+                "module_id": 2,
+                "module_name": "Blue",
+                "gene_count": 179,
+                "dosage_correlation_r": 0.6323540611492114,
+                "dosage_R2": 0.39987165865190066,
+                "dosage_pval": 9.769824011589907e-14,
+                "key_genes": [
+                    "SLC25A6",
+                    "CD99",
+                    "KDM6A",
+                    "ASMTL",
+                    "CLEC4E",
+                    "ZFX"
+                ]
+            },
+            {
+                "module_id": 1,
+                "module_name": "Turquoise",
+                "gene_count": 86,
+                "dosage_correlation_r": -0.6100324322923801,
+                "dosage_R2": 0.37213956844855733,
+                "dosage_pval": 1.185893871240461e-12,
+                "key_genes": []
+            },
+            {
+                "module_id": 6,
+                "module_name": "Red",
+                "gene_count": 60,
+                "dosage_correlation_r": 0.33260197369087785,
+                "dosage_R2": 0.1106240729030674,
+                "dosage_pval": 0.00036162378042927035,
+                "key_genes": [
+                    "E2F2",
+                    "ANXA1"
+                ]
+            },
+            {
+                "module_id": 3,
+                "module_name": "Brown",
+                "gene_count": 51,
+                "dosage_correlation_r": 0.20001384877915696,
+                "dosage_R2": 0.04000553970345146,
+                "dosage_pval": 0.03531397706174626,
+                "key_genes": []
+            },
+            {
+                "module_id": 4,
+                "module_name": "Yellow",
+                "gene_count": 56,
+                "dosage_correlation_r": 0.12423680116698142,
+                "dosage_R2": 0.015434782764204076,
+                "dosage_pval": 0.193896435772658,
+                "key_genes": []
+            },
+            {
+                "module_id": 5,
+                "module_name": "Green",
+                "gene_count": 68,
+                "dosage_correlation_r": 0.07143836852059661,
+                "dosage_R2": 0.005103440496884569,
+                "dosage_pval": 0.45622179907619287,
+                "key_genes": []
+            }
+        ]
+    },
+    "status": "SOTA_SYSTEMS_BIOLOGY_SUCCESSFUL"
+}
