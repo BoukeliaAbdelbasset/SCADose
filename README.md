@@ -23,12 +23,6 @@ $^3$ University of Constantine 3, Nouvelle Ville Ali Mendjli, 25000 Constantine,
 $^\dagger$ Co-first authors (equal contribution)  
 $^*$ Corresponding author: Abdelbasset Boukelia (`a.boukelia@crbt.dz`)  
 
-*Target Journal:* **Molecular Genetics and Metabolism** (Elsevier)  
-*CRediT Authorship Contributions:*  
-- **S. Nair & A. Boukelia:** Conceptualization, Methodology, Formal analysis, Software, Validation, Data curation, Writing - original draft, Visualization.
-- **A. Boucheham:** Review & proofreading.
-- **F. Sellam:** Conceptualization, Project administration, Supervision, Writing - review & editing (Directed the study).
-
 ---
 
 ## 🧬 Biological Rationale & Scientific Summary
