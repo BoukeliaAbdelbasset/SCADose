@@ -98,8 +98,6 @@ SCADose/
 │   ├── 03_cross_study_meta_analysis.py # Random-effects meta-analysis & RNA-Seq replication
 │   ├── 04_calibrated_systems_biology.py # Deconvolution, mediation, TF regulon, WGCNA, ML
 │   ├── 05_publication_figures.py  # High-resolution figure renderer (adjustText, 300 DPI)
-│   ├── audit_references.py        # Crossref/PubMed DOI auditor & BibTeX validator
-│   ├── generate_manuscript_macros.py # Auto-generates LaTeX empirical macros from data
 │   └── main.py                    # Master CLI orchestrator
 ├── tests/                         # Pytest test suite (25 unit & mathematical assertions)
 │   ├── test_dosage_math.py        # Continuous regression, FDR penalty, NNLS deconvolution
